@@ -20,6 +20,8 @@ Open your terminal or command prompt and run:
 
 Step 2: Navigate to Project Directory
 Change your directory to the cloned project folder:
+
+```bash
 ### `cd book-event`
 
 Step 3: Install Dependencies
@@ -28,6 +30,8 @@ Install the required dependencies by running:
 
 Step 4: Run the Application
 To start the application in development mode, use:
+
+```bash
 ### `npm start`
 
 Runs the app in the development mode.\

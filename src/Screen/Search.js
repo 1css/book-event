@@ -23,8 +23,8 @@ function Search() {
 
         const result = data.filter((x) => {
           return (
-            x.title.toLowerCase().includes(query) ||
-            x.category.toLowerCase().includes(query)
+            x.title.toLowerCase().includes(query.toLowerCase()) ||
+            x.category.toLowerCase().includes(query.toLowerCase())
           );
         });
 

@@ -25,13 +25,7 @@
   border-radius: 4px;
 }
 
-/* .event-row {
-  display: flex;
-  flex-wrap: nowrap; 
-  align-items: center; 
-  justify-content: space-between; 
-  gap: 10px; 
-} */
+
 
 .event-row {
   display: flex;
@@ -39,4 +33,14 @@
   align-items: center; 
   justify-content: space-between; 
   gap: 5px; 
+}
+
+#event-seats{
+  margin-left: 2px;
+}
+
+@media screen and (min-width: 860px) {
+  #event-seats{
+  margin-left: 4px !important;
+  }
 }

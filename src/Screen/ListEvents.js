@@ -54,15 +54,15 @@ function ListEvents({ posts, loadingP }) {
                       >
                         {data.date}{" "}
                       </Col>
-                      <Col xs={3} sm={3} md={3} lg={3} className="small_font">
+                      <Col xs={3} sm={3} md={3} lg={3} className="small_font ml-md-3" id="event-seats">
                         Seats:{data.available_sets}
                       </Col>
-                      <Col xs={3} sm={3} md={3} lg={3} className="small_font">
+                      <Col xs={3} sm={3} md={3} lg={3} className="small_font ml-3">
                         &#8377;{data.price}
                       </Col>
                     </Row>
                     <Row>
-                      <Col className="event-description">
+                      <Col xs={12} className="event-description" >
                         description:{data.description}
                       </Col>
                     </Row>

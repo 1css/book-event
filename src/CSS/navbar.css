@@ -1,6 +1,6 @@
 .navbar-toggler-icon {
     background-image: none; 
-    border: 2px solid white;
+    /* border: 2px solid white; */
     width: 25px;
     height: 2px;
     position: relative;

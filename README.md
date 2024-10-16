@@ -1,11 +1,33 @@
-# Getting Started with Create React App
+# Book Event
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is a web application built with [Create React App](https://github.com/facebook/create-react-app) for managing and booking events.
 
-## Available Scripts
+## Getting Started
 
-In the project directory, you can run:
+To get a local copy up and running, follow these simple steps.
 
+### Prerequisites
+
+- [Node.js](https://nodejs.org/) (v14 or higher)
+- [npm](https://www.npmjs.com/) (comes with Node.js)
+
+### Step 1: Clone the Repository
+
+Open your terminal or command prompt and run:
+
+```bash
+### `git clone https://github.com/1css/book-event.git`
+
+Step 2: Navigate to Project Directory
+Change your directory to the cloned project folder:
+### `cd book-event`
+
+Step 3: Install Dependencies
+Install the required dependencies by running:
+### `npm install`
+
+Step 4: Run the Application
+To start the application in development mode, use:
 ### `npm start`
 
 Runs the app in the development mode.\

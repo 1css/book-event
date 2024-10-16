@@ -8,3 +8,9 @@
    display: flex;
    justify-content: center;
 }
+
+#notFoundEvent{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}

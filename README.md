@@ -1,5 +1,5 @@
 # Book Event
-
+The Book Event project is a web application that allows users to view and book events. Users can see event details like title, date, price, and available seats. They can easily navigate to the event details page by clicking on an event. The application also checks if a user has already booked an event. If not, they can complete their booking and receive a confirmation. This project helps users easily manage their event bookings in a simple and user-friendly way.
 This project is a web application built with [Create React App](https://github.com/facebook/create-react-app) for managing and booking events.
 
 ## Getting Started

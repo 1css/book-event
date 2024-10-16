@@ -1,0 +1,42 @@
+.small_font {
+  font-size: 12px;
+  color: #707070;
+}
+
+.event-description {
+  white-space: nowrap;
+  height: 30px;
+  overflow: hidden;
+  text-overflow: ellipsis !important;
+}
+
+#event-category {
+  white-space: nowrap;
+  width: 80px;
+  overflow: hidden;
+  text-overflow: ellipsis !important;
+}
+
+.event-block{
+  justify-content: center;
+  border: 1px solid #00000057;
+  width: 400px !important;
+  height: 100%;
+  border-radius: 4px;
+}
+
+/* .event-row {
+  display: flex;
+  flex-wrap: nowrap; 
+  align-items: center; 
+  justify-content: space-between; 
+  gap: 10px; 
+} */
+
+.event-row {
+  display: flex;
+  flex-wrap: wrap; 
+  align-items: center; 
+  justify-content: space-between; 
+  gap: 5px; 
+}

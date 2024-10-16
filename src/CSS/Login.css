@@ -1,0 +1,213 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  }
+  #login-body {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(247, 247, 247);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-blend-mode: multiply;
+  }
+  .circle {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+  }
+  .circle-one {
+    background: rgba(255, 197, 5, 0.915);
+    position: absolute;
+    z-index: -10;
+    top: 220px;
+    left: 34%;
+    animation: all ease alternate;
+    box-shadow: 10px 10px 36px 1px rgba(0, 0, 0, 0.2);
+  }
+  
+  .Loginmain1 {
+    
+    background: white;
+    backdrop-filter: blur(5px);
+    box-shadow: 0 0 36px 1px rgba(0, 0, 0, 0.2);
+    width: 420px;
+    height: 540px;
+    border: 0px solid rgba(0, 0, 0, 0.052);
+    border-radius: 15px;
+    /* padding: 30px 40px; */
+  }
+  .Loginmain1 form {
+    padding: 30px 40px;
+  }
+  .Loginmain1 h1 {
+    font-weight: 900;
+    color: rgb(63, 63, 63);
+    font-size: 36px;
+    text-align: center;
+    margin: 30px 0px 80px 0px;
+  }
+  
+  .Login-input-content {
+    width: 100%;
+    height: 60px;
+    margin: 30px 0;
+    position: relative;
+  }
+  
+  .Login-input-content input {
+    width: 100%;
+    /* background: rgb(244, 244, 244); */
+    background: rgb(209, 206, 206);
+    height: 60px;
+    border: 2px solid rgb(244, 244, 244);
+    outline: none;
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 20px 45px 20px 20px;
+    color: rgba(66, 66, 66, 0.85);
+  }
+  .Login-input-content input::placeholder {
+    color: rgba(66, 66, 66, 0.85);
+    font-size: 18px;
+  }
+  .Login-input-content i {
+    background: rgb(255, 255, 255);
+    color: rgba(66, 66, 66, 0.85);
+    font-weight: 600;
+    border-radius: 50%;
+    padding: 9px;
+    font-size: 24px;
+    position: absolute;
+    right: 8px;
+    top: 17%;
+    transition: all 0.4s cubic-bezier(0.47, 0, 0.745, 0.715);
+  }
+  .remember {
+    display: flex;
+    /* justify-content: space-between; */
+    margin-top: 30px;
+    color: rgba(66, 66, 66, 0.85);
+  }
+  .remember label input {
+    accent-color: rgba(123, 0, 204, 0.85);
+    margin-right: 3px;
+    outline: none;
+  }
+  .remember a {
+    color: rgba(66, 66, 66, 0.85);
+    text-decoration: none;
+    padding-left: 150px;
+    text-decoration: underline !important;
+  }
+  
+  /* .main button {
+     background: rgba(255, 42, 66, 0.899);
+      margin-top: 30px;
+      width: 100%;
+      border: none;
+      outline: none;
+      border-radius: 10px;
+      font-size: 20px;
+      font-weight: 600;
+      height: 55px;
+      color: white;
+  } */
+  
+  #logbu {
+    background: rgba(255, 42, 66, 0.899);
+    margin-top: 50px;
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    height: 55px;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .register {
+    text-align: center;
+    margin-top: 25px;
+    color: rgba(255, 255, 255, 0.85);
+  }
+  
+  .register p a {
+    font-weight: 600;
+    text-decoration: underline;
+    color: rgba(255, 255, 255, 0.85);
+  }
+  
+  .register p a:hover {
+    color: black;
+    text-decoration: underline;
+  }
+  
+  .remember button {
+    border: none;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: blue;
+    cursor: pointer;
+  }
+  
+  #logfoot {
+    /* padding-top: 8px; */
+    margin-top: 15px;
+    /* border: none; */
+    width: 420px;
+    height: 30px;
+    /* align-items: center; */
+    /* box-sizing: border-box; */
+    /* padding-left: 38px; */
+    /* text-align: center; */
+    /* margin: 50px auto; */
+    background: rgb(49, 48, 48);
+    /* border-radius:15px; */
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    text-align: center;
+    box-shadow: 0 0 36px 1px rgba(0, 0, 0, 0.2);
+  }
+  #idbut {
+    border: none;
+    background: rgb(51, 51, 51);
+    color: white;
+    text-decoration: underline;
+    cursor: pointer;
+    font-weight: 550;
+  }
+  
+  #logfoot p {
+    padding-top: 3px;
+    /* color:black; */
+    color: rgb(164, 160, 160);
+  }
+  /* #footp{
+      
+  } */
+  
+  #logfoot button:hover {
+    text-decoration: none;
+  }
+  
+  .remember a:hover {
+    text-decoration: none !important;
+  }
+  
+  .Login-input-content i {
+    color: rgb(94, 156, 156);
+    background-color: antiquewhite;
+  }
+  

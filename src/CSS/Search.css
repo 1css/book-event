@@ -1,0 +1,18 @@
+.small_font {
+    font-size: 12px;
+  }
+  
+  .event-description {
+    white-space: nowrap;
+    height: 30px;
+    overflow: hidden;
+    text-overflow: ellipsis !important;
+  }
+  
+  #event-category {
+    white-space: nowrap;
+    width: 80px;
+    overflow: hidden;
+    text-overflow: ellipsis !important;
+  }
+  

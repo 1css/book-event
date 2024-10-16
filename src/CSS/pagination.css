@@ -1,0 +1,39 @@
+
+.pagination {
+    display: flex;
+    justify-content: center; 
+    gap: 10px; 
+    padding: 20px;
+  }
+  
+ 
+  .pagination button {
+    padding: 10px;
+    background-color: #f8f9fa; 
+    border: 1px solid #007bff; 
+    color: #007bff; 
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  
+  .pagination button:hover {
+    background-color: #007bff; 
+    color: white; 
+  }
+  
+ 
+  .pagination .active {
+    background-color: black; 
+    color: white; 
+    border: 1px solid white; 
+  }
+  
+  
+  @media (max-width: 600px) {
+    .pagination button {
+      padding: 8px;
+      font-size: 14px;
+    }
+  }
+  

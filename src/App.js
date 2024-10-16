@@ -20,7 +20,7 @@ function App() {
           <>
             <Routes>
               <Route path="/login" element={<Login />} />
-              <Route path="/test" element={<Test />} />
+              
               <Route path="/" element={<Home />} />
               <Route path="/devent/:evetnId" element={<DetailsEvent />} />
               <Route path="/search" element={<Search />} />

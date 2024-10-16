@@ -64,7 +64,7 @@ function Navbar() {
                 value={value}
                 onChange={(e) => setValue(e.target.value)}
               />
-              <button className="btn btn-secondary my-2 my-sm-0" type="submit">
+              <button className="btn btn-secondary  my-sm-0" type="submit">
                 Search
               </button>
             </form>

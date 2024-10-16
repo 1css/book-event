@@ -50,12 +50,11 @@ function DetailsEvent() {
   
 
   const FromlocalStroage = localStorage.getItem("book");
+const JSONInfodata = FromlocalStroage ? JSON.parse(FromlocalStroage) : [];
 
-  const JSONInfodata = JSON.parse(FromlocalStroage);
-
-  const eventIsBookedOrNot = user && JSONInfodata.filter(
-    (x) => x.eventId === Number(evetnId) && x.userId === user.id
-  ).length > 0;
+const eventIsBookedOrNot = user && JSONInfodata.filter(
+  (x) => x.eventId === Number(evetnId) && x.userId === user.id
+).length > 0;
 
  
 

@@ -7,7 +7,7 @@ import { AuthContextProvider } from "./context/AuthContext";
 import Navbar from './Components/Navbar'
 import Search from "./Screen/Search";
 // import 'bootstrap/dist/css/bootstrap.min.css';
-import Test from "./Screen/teest";
+
 
 function App() {
   return (

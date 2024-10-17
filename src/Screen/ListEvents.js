@@ -19,6 +19,16 @@ function ListEvents({ posts, loadingP }) {
     setCurrentPage(pageNumber);
   };
 
+  const FromlocalStroage = localStorage.getItem("book");
+  const JSONInfodata = FromlocalStroage ? JSON.parse(FromlocalStroage) : [];
+
+  const noOfseat = (id) => {
+    const bookedSeats = JSONInfodata.filter((x) => x.eventId === id);
+    console.log(bookedSeats,"bookedSeats2");
+    
+    return bookedSeats.length;
+  };
+
   return (
     <div>
       {loadingP ? (
@@ -54,15 +64,34 @@ function ListEvents({ posts, loadingP }) {
                       >
                         {data.date}{" "}
                       </Col>
-                      <Col xs={3} sm={3} md={3} lg={3} className="small_font ml-md-3" id="event-seats">
-                        Seats:{data.available_sets}
+                      <Col
+                        xs={3}
+                        sm={3}
+                        md={3}
+                        lg={3}
+                        className="small_font ml-md-3"
+                        id="event-seats"
+                      >
+                        <>
+                          {data.available_sets - noOfseat(data.id) < 0 ? (
+                            <>NO seat available</>
+                          ) : (
+                            <>Seat:{data.available_sets - noOfseat(data.id)}</>
+                          )}
+                        </>
                       </Col>
-                      <Col xs={3} sm={3} md={3} lg={3} className="small_font ml-3">
+                      <Col
+                        xs={3}
+                        sm={3}
+                        md={3}
+                        lg={3}
+                        className="small_font ml-3"
+                      >
                         &#8377;{data.price}
                       </Col>
                     </Row>
                     <Row>
-                      <Col xs={12} className="event-description" >
+                      <Col xs={12} className="event-description">
                         description:{data.description}
                       </Col>
                     </Row>
@@ -77,7 +106,7 @@ function ListEvents({ posts, loadingP }) {
         length={posts.length}
         postsPerPage={postsPerPage}
         handlePagination={handlePagination}
-        currentPage={currentPage} 
+        currentPage={currentPage}
       />
     </div>
   );

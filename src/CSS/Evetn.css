@@ -44,3 +44,8 @@
   margin-left: 4px !important;
   }
 }
+
+#booked_seats{
+  color: #707070;
+  font-size: 8px;
+}

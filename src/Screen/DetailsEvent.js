@@ -154,6 +154,10 @@ const eventIsBookedOrNot = user && JSONInfodata.filter(
                     </td>
                   </tr>
                   <tr>
+                    <td>Booked Seats</td>
+                    <td>{user ?noOfseat(data.id):<><span>You should log in to see.</span></>}</td>
+                  </tr>
+                  <tr>
                     <td>Description</td>
                     <td>{data.description}</td>
                   </tr>

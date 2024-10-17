@@ -76,7 +76,10 @@ function ListEvents({ posts, loadingP }) {
                           {data.available_sets - noOfseat(data.id) < 0 ? (
                             <>NO seat available</>
                           ) : (
+                            <>
                             <>Seat:{data.available_sets - noOfseat(data.id)}</>
+                            
+                            </>
                           )}
                         </>
                       </Col>
